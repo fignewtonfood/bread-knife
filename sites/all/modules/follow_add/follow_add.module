@@ -9,4 +9,16 @@ function follow_add_follow_networks_alter(&$networks, $uid = 0) {
         'title' => t('Drupal.org'),
         'domain' => 'drupal.org',
     );
+    $networks[$uid]['etsy'] = array (
+        'title' => t('Etsy'),
+        'domain' => 'etsy.com',
+    );
+    $networks[$uid]['redbubble'] = array (
+        'title' => t('Redbubble'),
+        'domain' => 'redbubble.com',
+    );
+    $networks[$uid]['github'] = array (
+        'title' => t('GitHub'),
+        'domain' => 'github.com',
+    );
 }
