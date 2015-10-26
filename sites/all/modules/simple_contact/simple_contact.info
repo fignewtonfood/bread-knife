@@ -1,0 +1,4 @@
+name = Simple contact
+description = Custom Functions
+package = Custom
+core = 7.x
