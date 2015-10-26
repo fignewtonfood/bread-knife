@@ -1,0 +1,4 @@
+name = Add to Follow
+description = Adds new networks to follow module
+package = Custom
+core = 7.x
