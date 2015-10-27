@@ -1,0 +1,16 @@
+<?php
+
+function simple_creation_form_alter(&$form, &$form_state, $form_id) {
+    // find form id on target page
+    // print_r($form_id);
+    if ($form_id == 'recipe_node_form' || 'awards_node_form' || 'news_node_form' || 'tips_and_tricks_node_form') {
+        // print entire form so that you can find a specific value
+        // print '<pre>';
+        // print_r($form);
+        // print '</pre>';
+        $form['menu']['#type'] = 'hidden';
+        $form['revision_information']['#type'] = 'hidden';
+        $form['author']['#type'] = 'hidden';
+        $form['comment_settings']['comment']['#default_value'] = '1';
+    }
+}

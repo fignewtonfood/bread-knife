@@ -1,0 +1,4 @@
+name = Simple creation
+description = Simplified new content creation forms
+package = Custom
+core = 7.x
