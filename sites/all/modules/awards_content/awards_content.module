@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Awards content feature.
+ */
+
+include_once 'awards_content.features.inc';

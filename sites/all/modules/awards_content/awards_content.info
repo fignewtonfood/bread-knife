@@ -1,0 +1,11 @@
+name = Awards content
+description = Adds awards custom content type
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_links
+features[field_instance][] = node-awards-field_links
+features[node][] = awards
