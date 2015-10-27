@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Tips and Tricks feature.
+ */
+
+include_once 'tips_and_tricks.features.inc';

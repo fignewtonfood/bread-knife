@@ -1,0 +1,14 @@
+name = Tips and Tricks
+description = Tips and tricks custom type
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = recipe_content
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_image
+features[field_instance][] = node-tips_and_tricks-body
+features[field_instance][] = node-tips_and_tricks-field_image
+features[node][] = tips_and_tricks
